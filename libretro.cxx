@@ -113,7 +113,7 @@ void retro_get_system_av_info(struct retro_system_av_info *info)
    memset(info, 0, sizeof(*info));
    info->timing.fps            = console->getFramerate();
    info->timing.sample_rate    = 31400;
-   info->geometry.base_width   = 160 * 2;
+   info->geometry.base_width   = 160;
    info->geometry.base_height  = videoHeight;
    info->geometry.max_width    = 320;
    info->geometry.max_height   = 256;
